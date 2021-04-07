@@ -27,6 +27,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.one);
+        mp.setVolume(0f,1f);
         mp.start();
 
     }
@@ -37,6 +38,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.two);
+        mp.setVolume(0f,1f);
         mp.start();
     }
     public void soundAndAnimation3(View view) {
@@ -45,6 +47,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.three);
+        mp.setVolume(0f,1f);
         mp.start();
     }
     public void soundAndAnimation4(View view) {
@@ -53,6 +56,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.four);
+        mp.setVolume(0f,1f);
         mp.start();
     }
     public void soundAndAnimation5(View view) {
@@ -61,6 +65,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.five);
+        mp.setVolume(0f,1f);
         mp.start();
     }
     public void soundAndAnimation6(View view) {
@@ -69,6 +74,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.six);
+        mp.setVolume(0f,1f);
         mp.start();
     }
     public void soundAndAnimation7(View view) {
@@ -77,6 +83,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.seven);
+        mp.setVolume(0f,1f);
         mp.start();
     }
     public void soundAndAnimation8(View view) {
@@ -85,6 +92,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.eight);
+        mp.setVolume(0f,1f);
         mp.start();
     }
     public void soundAndAnimation9(View view) {
@@ -93,6 +101,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.nine);
+        mp.setVolume(0f,1f);
         mp.start();
     }
     public void soundAndAnimation10(View view) {
@@ -101,6 +110,7 @@ public class CountingActivity extends AppCompatActivity {
                 R.anim.clockwise);
         img1.startAnimation(animation1);
         mp=MediaPlayer.create(this,R.raw.ten);
+        mp.setVolume(0f,1f);
         mp.start();
     }
 
